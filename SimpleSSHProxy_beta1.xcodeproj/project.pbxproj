@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C492EEC1397B565003785A7 /* getPass.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2C492EEB1397B565003785A7 /* getPass.sh */; };
+		2C6B00F01393F36700A0367A /* taskProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6B00EF1393F36700A0367A /* taskProxy.m */; };
+		2C6B01271393F61D00A0367A /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6B01241393F61D00A0367A /* AsyncSocket.m */; };
+		2C6B01281393F61D00A0367A /* connTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6B01261393F61D00A0367A /* connTest.m */; };
+		2C6B01351393F7EA00A0367A /* polipo in Resources */ = {isa = PBXBuildFile; fileRef = 2C6B01341393F7EA00A0367A /* polipo */; };
+		2C6B023B1393F91C00A0367A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2C6B023A1393F91C00A0367A /* Credits.rtf */; };
+		2CF00C00139388AC0051C16E /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF00BFF139388AC0051C16E /* AppController.m */; };
+		2CF00C611393965C0051C16E /* SimpleSSHProxy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF00BF9139387230051C16E /* SimpleSSHProxy.xib */; };
+		2CF00C6F139398680051C16E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CF00C6E139398680051C16E /* Localizable.strings */; };
+		2CF00DE31393C7FF0051C16E /* EMKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF00DE21393C7FF0051C16E /* EMKeychainItem.m */; };
+		2CF00DE91393C9B60051C16E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF00DE81393C9B60051C16E /* Security.framework */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		256AC3F00F4B6AF500CF3369 /* SimpleSSHProxy_beta1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleSSHProxy_beta1_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2C492EEB1397B565003785A7 /* getPass.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = getPass.sh; sourceTree = "<group>"; };
+		2C6B00EE1393F36700A0367A /* taskProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taskProxy.h; sourceTree = "<group>"; };
+		2C6B00EF1393F36700A0367A /* taskProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taskProxy.m; sourceTree = "<group>"; };
+		2C6B01231393F61D00A0367A /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		2C6B01241393F61D00A0367A /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		2C6B01251393F61D00A0367A /* connTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connTest.h; sourceTree = "<group>"; };
+		2C6B01261393F61D00A0367A /* connTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = connTest.m; sourceTree = "<group>"; };
+		2C6B01341393F7EA00A0367A /* polipo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = polipo; sourceTree = "<group>"; };
+		2C6B023A1393F91C00A0367A /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		2CF00BF9139387230051C16E /* SimpleSSHProxy.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleSSHProxy.xib; sourceTree = "<group>"; };
+		2CF00BFE139388AC0051C16E /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		2CF00BFF139388AC0051C16E /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		2CF00C6C1393985D0051C16E /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2CF00D021393A94A0051C16E /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2CF00DE11393C7FF0051C16E /* EMKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeychainItem.h; sourceTree = "<group>"; };
+		2CF00DE21393C7FF0051C16E /* EMKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeychainItem.m; sourceTree = "<group>"; };
+		2CF00DE81393C9B60051C16E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* SimpleSSHProxy_beta1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleSSHProxy_beta1-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* SimpleSSHProxy_beta1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSSHProxy_beta1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				2CF00DE91393C9B60051C16E /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2CF00E881393DEE60051C16E /* External Classes */,
+				2C6B01251393F61D00A0367A /* connTest.h */,
+				2C6B01261393F61D00A0367A /* connTest.m */,
+				2C6B00EE1393F36700A0367A /* taskProxy.h */,
+				2C6B00EF1393F36700A0367A /* taskProxy.m */,
+				2CF00BFE139388AC0051C16E /* AppController.h */,
+				2CF00BFF139388AC0051C16E /* AppController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CF00DE81393C9B60051C16E /* Security.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* SimpleSSHProxy_beta1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SimpleSSHProxy_beta1 */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = SimpleSSHProxy_beta1;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* SimpleSSHProxy_beta1_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C492EEB1397B565003785A7 /* getPass.sh */,
+				2C6B023A1393F91C00A0367A /* Credits.rtf */,
+				2C6B01341393F7EA00A0367A /* polipo */,
+				2CF00C6E139398680051C16E /* Localizable.strings */,
+				2CF00BF9139387230051C16E /* SimpleSSHProxy.xib */,
+				8D1107310486CEB800E47090 /* SimpleSSHProxy_beta1-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CF00E881393DEE60051C16E /* External Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C6B01231393F61D00A0367A /* AsyncSocket.h */,
+				2C6B01241393F61D00A0367A /* AsyncSocket.m */,
+				2CF00DE11393C7FF0051C16E /* EMKeychainItem.h */,
+				2CF00DE21393C7FF0051C16E /* EMKeychainItem.m */,
+			);
+			name = "External Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* SimpleSSHProxy_beta1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleSSHProxy_beta1" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleSSHProxy_beta1;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SimpleSSHProxy_beta1;
+			productReference = 8D1107320486CEB800E47090 /* SimpleSSHProxy_beta1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleSSHProxy_beta1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Chinese,
+				"zh-CN",
+				zh_CN,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SimpleSSHProxy_beta1 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* SimpleSSHProxy_beta1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF00C611393965C0051C16E /* SimpleSSHProxy.xib in Resources */,
+				2CF00C6F139398680051C16E /* Localizable.strings in Resources */,
+				2C6B01351393F7EA00A0367A /* polipo in Resources */,
+				2C6B023B1393F91C00A0367A /* Credits.rtf in Resources */,
+				2C492EEC1397B565003785A7 /* getPass.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				2CF00C00139388AC0051C16E /* AppController.m in Sources */,
+				2CF00DE31393C7FF0051C16E /* EMKeychainItem.m in Sources */,
+				2C6B00F01393F36700A0367A /* taskProxy.m in Sources */,
+				2C6B01271393F61D00A0367A /* AsyncSocket.m in Sources */,
+				2C6B01281393F61D00A0367A /* connTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CF00C6E139398680051C16E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF00C6C1393985D0051C16E /* English */,
+				2CF00D021393A94A0051C16E /* zh_CN */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimpleSSHProxy_beta1_Prefix.pch;
+				INFOPLIST_FILE = "SimpleSSHProxy_beta1-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SimpleSSHProxy_beta1;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimpleSSHProxy_beta1_Prefix.pch;
+				INFOPLIST_FILE = "SimpleSSHProxy_beta1-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SimpleSSHProxy_beta1;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SimpleSSHProxy_beta1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleSSHProxy_beta1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

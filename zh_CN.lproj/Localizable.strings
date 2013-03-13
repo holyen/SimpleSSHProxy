@@ -1,0 +1,46 @@
+/* 
+localized.strings
+SimpleSSHProxy_beta1
+
+Created by ivan on 11-5-30.
+Copyright 2011 ivansays.com. All rights reserved.
+*/
+"preferenceWindowTitle" = "偏好设置";
+"tabGeneral" = "通用";  //偏好设置窗口的两个tab
+"tabSSH" = "SSH";
+"tabAdvanced" = "高级";
+
+
+
+"menuItemAboutSSP" = "关于 SimpleSSHProxy";  //菜单项
+//-----------------------------
+"menuItemShowPref" = "偏好设置...";
+//-----------------------------
+"menuItemProxyStart" = "开始代理";
+"menuItemProxyStop" = "停止代理";
+"menuItemProxyRestart" = "重设代理";
+//-----------------------------
+"menuItemExitSSP" = "退出 SimpleSSHProxy";
+
+
+
+"labelOnAppStart" = "程序启动时:";
+"checkboxAutoStart" = "自动开始代理";
+//-----------------------------
+"labelProxyFor" = "代理范围:";
+"checkboxAllowAllAccess" = "为其他电脑提供代理";
+//-----------------------------
+"labelProxyListeningPorts" = "代理端口:";
+"labelSocksPort" = "Socks:";
+"labelHTTPPort" = "HTTP:";
+//-----------------------------
+"labelSSHServer" = "SSH 服务器:";
+//-----------------------------
+"labelSSHPort" = "端口:";
+//-----------------------------
+"labelSSHUsername" = "用户名:";
+//-----------------------------
+"checkboxUsePassword" = "使用密码:";
+//-----------------------------
+"checkboxUseConnTest" = "使用连接检测";
+"labelUseConnTest" = "说明: 打开连接检测功能后，SimpleSSHProxy 会每隔一段时间检测 ssh 连接，如果连接断开，则自动重新连接。";

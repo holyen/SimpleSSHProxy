@@ -1,0 +1,46 @@
+/* 
+localized.strings
+SimpleSSHProxy_beta1
+
+Created by ivan on 11-5-30.
+Copyright 2011 ivansays.com. All rights reserved.
+*/
+"preferenceWindowTitle" = "Preferences";
+"tabGeneral" = "General";  //偏好设置窗口的两个tab
+"tabSSH" = "SSH";
+"tabAdvanced" = "Advanced";
+
+
+
+"menuItemAboutSSP" = "About SimpleSSHProxy";  //菜单项
+//-----------------------------
+"menuItemShowPref" = "Preferences...";
+//-----------------------------
+"menuItemProxyStart" = "Start proxy";
+"menuItemProxyStop" = "Stop proxy";
+"menuItemProxyRestart" = "Restart proxy";
+//-----------------------------
+"menuItemExitSSP" = "Exit SimpleSSHProxy";
+
+
+
+"labelOnAppStart" = "On application start:";
+"checkboxAutoStart" = "Autostart proxy";
+//-----------------------------
+"labelProxyFor" = "Proxy for:";
+"checkboxAllowAllAccess" = "Other computers";
+//-----------------------------
+"labelProxyListeningPorts" = "Proxy listening ports:";
+"labelSocksPort" = "Socks:";
+"labelHTTPPort" = "HTTP:";
+//-----------------------------
+"labelSSHServer" = "SSH server:";
+//-----------------------------
+"labelSSHPort" = "Port:";
+//-----------------------------
+"labelSSHUsername" = "Username:";
+//-----------------------------
+"checkboxUsePassword" = "Use password:";
+//-----------------------------
+"checkboxUseConnTest" = "Enable connection test";
+"labelUseConnTest" = "Note: enable this then SimpleSSHProxy will check the SSH connections at intervals, and automatically reconnect ssh server if the connection is down.";
